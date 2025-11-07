@@ -1,7 +1,10 @@
 # Dependencies
 node_modules/
 */node_modules/
+
+# Lock files (not needed in repo, causes deployment issues)
 package-lock.json
+*/package-lock.json
 
 # Environment variables
 .env
